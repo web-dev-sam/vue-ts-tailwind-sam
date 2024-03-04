@@ -1,6 +1,7 @@
 /* eslint-env node */
 require("@rushstack/eslint-patch/modern-module-resolution")
 
+/** @type {import("eslint/lib/cli-engine/cli-engine")} */
 module.exports = {
   root: true,
   extends: [
@@ -18,5 +19,10 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: "latest",
+  },
+  rules: {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "_" }],
   },
 }
