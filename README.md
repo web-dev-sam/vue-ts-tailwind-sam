@@ -11,7 +11,11 @@ This is a stricter Vue3 + TypeScript + TailwindCSS project template for more com
 ## Features
 
 - Vue3 with Composition API
-- TypeScript
+  - Pinia for state management
+  - Vue Router
+  - @/\* alias for src/
+  - Auto import only for commonly used vue helpers (like `ref`, `computed`, `watch`, etc.)
+- TypeScript 5
 - TailwindCSS (With Automatic Class Sorting)
 - ESLint with Prettier
 - Vitest for unit tests
