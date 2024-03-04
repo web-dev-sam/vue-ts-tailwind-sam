@@ -1,6 +1,6 @@
 {
-    "*.{js,jsx,ts,tsx,vue,json}": [
-        "eslint --fix",
-        "prettier --write"
+    "*.{js,jsx,ts,tsx,vue}": [
+        "npm run lint",
+        "npm run format"
     ]
 }
