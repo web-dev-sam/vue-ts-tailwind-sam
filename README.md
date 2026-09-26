@@ -10,7 +10,7 @@ _A stricter Vue3 + TypeScript + TailwindCSS project template for more complex te
 &nbsp;
 
 ## Why does this exist?
-1. Team-based Vue apps need stricter defaults than the standard template: type checks and lint run before every commit, and the commit fails if they don't pass.
+Team-based Vue apps need stricter defaults than the standard template: type checks and lint run before every commit, and the commit fails if they don't pass.
 
 ## How to set it up
 - Install recommended extensions
